@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400,700&family=Playfair+Display:ital@0;1&display=swap");
 *,
 *:before,
 *:after {
@@ -90,8 +90,11 @@ html {
 
 body {
   background-color: rgb(127, 127, 193);
-  font-family: "Montserrat", Verdana, sans-serif;
-  color: #000000;
+  font-family: "Inter", Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 121.4285714286%;
+  color: #1B1B1B;
 }
 
 .wrapper {
@@ -101,11 +104,10 @@ body {
   flex-direction: column;
 }
 
-._container {
-  max-width: 1046px;
+.container {
+  max-width: 1220px;
   margin: 0 auto;
-  padding: 0 15px;
-  box-sizing: content-box;
+  padding: 0 10px;
 }
 
 .main {
@@ -123,4 +125,40 @@ body {
   left: 0;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.header {
+  background-color: white;
+  padding-top: 30px;
+}
+
+.header__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-family: "Playfair+Display", serif;
+  line-height: 135.7142857143%;
+  text-transform: uppercase;
+  flex: 1 1 auto;
+  text-align: end;
+}
+
+.header__menu {
+  margin: 0 186px 0 131px;
+}
+
+.menu-header__item {
+  font-size: 12px;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+.menu-header__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.user-nav-header {
+  display: flex;
+  gap: 20px;
 }/*# sourceMappingURL=styles.css.map */

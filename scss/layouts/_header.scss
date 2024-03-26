@@ -1,0 +1,47 @@
+.header {
+    background-color: white;
+    padding-top: 30px;
+}
+.header__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+}
+.header__title {
+    font-family: "Playfair+Display", serif;
+    line-height: calc(19 / 14 * 100%);
+    text-transform: uppercase;
+    flex: 1 1 auto;
+    text-align: end;
+}
+
+.header__menu {
+    margin: 0 186px 0 131px;
+}
+.menu-header {
+}
+.menu-header__list {
+}
+.menu-header__item {
+    font-size: 12px;
+    line-height: calc(15 / 12 * 100%);
+    text-transform: uppercase;
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+.menu-header__link {
+}
+
+.header__user-nav {
+}
+.user-nav-header {
+    display: flex;
+    gap: 20px;
+}
+.user-nav-header__item {
+}
+.user-nav-header__link {
+}
