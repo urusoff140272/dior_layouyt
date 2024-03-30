@@ -1,0 +1,64 @@
+.main__about {
+    margin-bottom: 130px;
+}
+
+.about {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.about__body {
+    margin-left: 203px;
+}
+
+.about__title {
+    font-family: "Playfair Display";
+    font-size: 32px;
+    line-height: calc(43 / 32 * 100%);
+    margin-bottom: 20px;
+    max-width: 185px;
+    text-transform: uppercase;
+}
+
+.about__textbox {
+    margin-bottom: 155px;
+}
+
+.textbox-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+.textbox-about__text {
+    :not(:last-child){
+        margin-bottom: 20px;
+    }
+    flex: 0 1 387px;
+}
+.textbox-about__text_bold {
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    margin-bottom: -3px;
+}
+
+.item-about__title{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+}
+
+.about__swiper{
+    width: 1600px;
+}
+
+.container-arrows_about{
+    margin-left: -200px;
+    margin-top: -17px;
+}
+.about__button{
+    padding: 10px 136px;
+    margin-top: 5px;
+    min-height: 60px;
+}

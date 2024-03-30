@@ -1,0 +1,15 @@
+.button{
+    min-height: 59px;
+    padding: 10px 55px;
+    font-weight: 700;
+    color: $color-textButton;
+    border: 1px solid $color-textButton;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 0.3s;
+    &:hover{
+        background-color: $color-backgroundButton;
+    }
+}

@@ -1,0 +1,77 @@
+.top{
+    padding: 20px 0;
+}
+.main__top {
+    margin: 50px 0 81px 0 ;
+}
+
+.slide-top {
+    position: relative;
+}
+.slide-top__img {
+    position: absolute;
+    min-height: 700px;
+    width: 100%;
+}
+
+.slide-top__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 700px;
+}
+.slide-top__image {
+    flex: 0 1 387px;
+    padding-bottom: 58.333%;
+}
+.slide-top__image_mini {
+    flex: 0 1 183px;
+    padding-bottom: 25%;
+    margin-bottom: -26px;
+}
+
+.slide-top__content {
+    flex: 0 1 183px;
+    margin-bottom: 100px;
+}
+.slide-top__title {
+    font-family: "Playfair Display";
+    font-size: 70px;
+    line-height: calc(93 / 70 * 100%);
+    margin-bottom: 56px;
+    text-transform: uppercase;
+    width: 183px;
+}
+.slide-top__subtitle {
+    font-size: 24px;
+    line-height: calc(29 / 24 * 100%);
+    margin-bottom: 10px;
+    width: 183px;
+}
+.slide-top__text {
+    margin-bottom: 20px;
+    width: 183px;
+}
+
+.slide-top__button {
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+}
+
+.container-arrows {
+    position: relative;
+    height: 30px;
+}
+.swiper-button-prev {
+    right: 0;
+    &::after {
+        content: none;
+    }
+}
+.swiper-button-next {
+    left: 76px;
+    &::after {
+        content: none;
+    }
+}
