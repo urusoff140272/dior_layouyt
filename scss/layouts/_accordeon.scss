@@ -1,0 +1,54 @@
+.main__accordeon {
+    margin-bottom: 223px;
+}
+
+.accordeon__body {
+    margin-left: 203px;
+    position: relative;
+}
+
+.accordeon__item {
+    border-bottom: 1px solid #000;
+}
+
+.accordeon__triger {
+    padding-top: 51px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordeon__triger-title {
+    font-size: 24px;
+    line-height: calc(29 / 24 * 100%);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.accordeon__triger-text {
+    flex: 0 1 38.82%;
+    margin-left: auto;
+    margin-bottom: 18px;
+}
+
+.accordeon__triger-arrow {
+    margin: 0 84px 18px 104px;
+}
+
+.accordeon__triger-content {
+    display: none;
+    margin: 20px 0;
+    p{
+        margin-bottom: 10px;
+    }
+}
+
+.accordeon__image{
+    position: absolute;
+    bottom: -70px;
+    left: 27%;
+}
+
+.accordeon__item_active .accordeon__triger-content{
+    display: block;
+}

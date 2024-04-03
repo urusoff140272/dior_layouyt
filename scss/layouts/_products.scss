@@ -1,0 +1,61 @@
+.main__products {
+    margin: 150px 0;
+}
+
+.products__body {
+    position: relative;
+    min-height: 634px;
+}
+
+.products__title {
+    color: $color-textDark;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: calc(43 / 32 * 100%);
+    max-width: 96px;
+    text-transform: uppercase;
+}
+
+.products__items {
+    position: absolute;
+    top: 0;
+    left: 203px;
+    display: flex;
+    gap: 20px;
+}
+
+.products__item {
+    text-align: center;
+}
+
+.item-products__top {
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-textDark;
+    opacity: 0.5;
+}
+
+.item-products__image {
+    margin-bottom: 20px;
+}
+
+.item-products__title {
+    color: $color-textDark;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: $color-textDark;
+    margin-bottom: 10px;
+}
+
+.item-products__piice {
+    color: $color-textDark;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    line-height: calc(43 / 32 * 100%);
+}

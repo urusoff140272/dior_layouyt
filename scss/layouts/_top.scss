@@ -1,16 +1,11 @@
-.top{
-    padding: 20px 0;
-}
 .main__top {
-    margin: 50px 0 81px 0 ;
+    margin-bottom: 150px;
 }
 
-.slide-top {
-    position: relative;
-}
 .slide-top__img {
     position: absolute;
     min-height: 700px;
+    padding-bottom: 36.46%;
     width: 100%;
 }
 
@@ -19,6 +14,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: 700px;
+    gap: 20px;
 }
 .slide-top__image {
     flex: 0 1 387px;
@@ -60,17 +56,16 @@
 }
 
 .container-arrows {
-    position: relative;
-    height: 30px;
+    position: absolute;
 }
 .swiper-button-prev {
-    right: 0;
+    left: 12px;
     &::after {
         content: none;
     }
 }
 .swiper-button-next {
-    left: 76px;
+    left: 83px;
     &::after {
         content: none;
     }
