@@ -30,6 +30,27 @@
     }
 }
 
+.menu-header__link {
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background-color: $color-textButton;
+        transition: 0.3s;
+    }
+    transition: 0.3s;
+    &:hover {
+        color: $color-textButton;
+        &::after {
+            width: 100%;
+        }
+    }
+}
+
 .user-nav-header {
     display: flex;
     gap: 20px;
@@ -41,4 +62,10 @@
     align-items: center;
     width: 24px;
     height: 24px;
+    svg path {
+        transition: 0.3s;
+    }
+    svg:hover path {
+        fill: $color-textButton;
+    }
 }
