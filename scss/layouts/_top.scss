@@ -1,0 +1,131 @@
+.main__top {
+    margin-bottom: 150px;
+}
+
+.slide-top {
+    position: relative;
+}
+
+.slide-top__img {
+    padding-bottom: 700px;
+    width: 100%;
+}
+
+.slide-top__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px 30px;
+}
+
+.slide-top__image {
+    flex: 0 0 387px;
+    padding-bottom: 700px;
+}
+.slide-top__image-mini {
+    margin-bottom: -26px;
+}
+
+.slide-top__content {
+    flex: 0 1 183px;
+    margin-bottom: 100px;
+}
+.slide-top__title {
+    font-family: "Playfair Display";
+    font-size: 70px;
+    line-height: calc(93 / 70 * 100%);
+    margin-bottom: 56px;
+    text-transform: uppercase;
+}
+.slide-top__subtitle {
+    font-size: 24px;
+    line-height: calc(29 / 24 * 100%);
+    margin-bottom: 10px;
+}
+.slide-top__text {
+    margin-bottom: 20px;
+}
+
+.slide-top__button {
+    padding: 10px 40px;
+    position: absolute;
+    right: 9%;
+    top: calc(50% - 18.5px);
+    background: $color-backgroundButton;
+    opacity: 0.6;
+}
+
+.container-arrows {
+    position: absolute;
+}
+.swiper-button-prev {
+    left: 12px;
+    &::after {
+        content: none;
+    }
+}
+.swiper-button-next {
+    left: 83px;
+    &::after {
+        content: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .slide-top__img {
+        padding-bottom: 58.33%;
+    }
+    .slide-top__image {
+        padding-bottom: 59.33%;
+    }
+}
+
+@media (max-width: 920px) {
+    .slide-top__content {
+        margin-bottom: 0;
+    }
+    .slide-top__body {
+        justify-content: space-around;
+    }
+    .slide-top__image-mini {
+        margin-bottom: 0;
+    }
+    .slide-top__image {
+        display: none;
+    }
+    .slide-top__img {
+        padding-bottom: 390px;
+    }
+    .slide-top__button {
+        right: calc(50% - 123px);
+        top: 5%;
+    }
+    .main__top {
+        margin-bottom: 100px;
+    }
+    .slide-top__title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 415px) {
+    .slide-top__img {
+        padding-bottom: 660px;
+    }
+    .slide-top__content{
+        order: -1;
+    }
+    .slide-top__title{
+        margin-bottom: 16px;
+    }
+    .main__top {
+        margin-bottom: 50px;
+    }
+    .slide-top__title {
+        font-size: 40px;
+    }
+    .slide-top__content{
+        text-align: center;
+    }
+}

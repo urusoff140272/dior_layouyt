@@ -1,0 +1,31 @@
+.main__video {
+    margin-bottom: 148px;
+}
+
+.body-video__box {
+    position: relative;
+    margin-left: auto;
+    max-width: 997px;
+}
+
+.body__video-screen {
+    padding-bottom: 60.18%;
+}
+
+.body-video__button {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+
+@media (max-width: 920px) {
+    .main__video {
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__video {
+        margin-bottom: 30px;
+    }
+}
